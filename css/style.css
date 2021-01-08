@@ -1,0 +1,98 @@
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.robo-head{
+	margin: 20px auto;
+	background-color: #4F84E0;
+	width: 250px;
+	height: 185px;
+	border-radius: 125px 125px 10px 10px;
+	position: relative;
+	transition: all 1s;
+}
+.robo-head:hover{
+	width: 350px;
+	border-radius: 175px 175px 10px 10px;
+}
+.robo-head:hover .robo-eye-left{
+	width: 20px;
+	height: 20px;
+}
+.robo-head:hover .robo-eye-right{
+	width: 20px;
+	height: 20px;
+}
+.robo-eye-left{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	bottom: 60px;
+	left: 60px;
+	transition: all 1s;
+}
+.robo-eye-right{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	bottom: 60px;
+	left: 170px;
+	transition: all 1s;
+}
+.robo-body{
+	position: relative;
+	margin: 20px auto;
+	width: 250px;
+	height: 300px;
+	background-color: #4F84E0;
+	border-radius: 10px 10px 50px 50px;
+	transition: all 1s;
+}
+.robo-body:hover .robo-hand-left{
+	transform: rotate(20deg);
+}
+.robo-hand-left{
+	position: absolute;
+	background-color: #4F84E0;
+	height: 100px;
+	width: 30px;
+	left: -45px;
+	top: 30px;
+	border-radius: 10px;
+	transition: all 1s;
+}
+.robo-hand-right{
+	position: absolute;
+	background-color: #4F84E0;
+	height: 100px;
+	width: 30px;
+	right: -45px;
+	top: 30px;
+	border-radius: 10px;
+	transition: all 1s;
+}
+.robo-body:hover .robo-hand-right{
+	transform: rotate(-20deg);
+}
+.robo-foot-left{
+	background-color: #4F84E0 ;
+	position: absolute;
+	bottom: -80px;
+	left: 50px;
+	height: 80px;
+	width: 40px;
+	border-radius: 0 0 17px 17px;
+}
+.robo-foot-right{
+	background-color: #4F84E0 ;
+	position: absolute;
+	bottom: -80px;
+	right: 50px;
+	height: 80px;
+	width: 40px;
+	border-radius: 0 0 17px 17px;
+}
